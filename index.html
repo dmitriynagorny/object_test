@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbar</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="bloc-tabs">
+            <button class="tabs disabled" type="button" tab-index="#tab_1">
+                Конфиденциальность
+            </button>
+
+            <button class="tabs" type="button" tab-index="#tab_2">
+                Целостность
+            </button>
+
+            <button class="tabs" type="button" tab-index="#tab_3">
+                Доступность
+            </button>
+        </div>
+
+        <div class="content" id="tab_1">
+
+            <div class="item-img">
+                <img src="./image/1.png">
+            </div>
+            <div class="text-tabs">
+                <h2>Конфиденциальность</h2>
+                <p>Это значит ввести в действие контроль, чтобы гарантировать достаточный уровень безопасности с данными предприятия, активами и информацией на разных этапах деловых операций для предотвращения нежелательного или несанкционированного раскрытия.</p>
+            </div>
+
+        </div>
+        <div class="content disabled" id="tab_2">
+
+            <div class="item-img">
+                <img src="./image/2.png">
+            </div>
+            <div class="text-tabs">
+                <h2>Целостность</h2>
+                <p>Целостность имеет дело с элементами управления, которые связаны с обеспечением того, чтобы корпоративная информация была внутренне и внешне последовательной. Целостность также гарантирует предотвращение искажения информации.</p>
+            </div>
+
+        </div>
+        <div class="content disabled" id="tab_3">
+
+            <div class="item-img">
+                <img src="./image/3.png">
+            </div>
+            <div class="text-tabs">
+                <h2>Доступность</h2>
+                <p>Доступность обеспечивает надежный и эффективный доступ к информации уполномоченных лиц. Сетевая среда должна вести себя предсказуемым образом с целью получить доступ к информации и данным, когда это необходимо.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
